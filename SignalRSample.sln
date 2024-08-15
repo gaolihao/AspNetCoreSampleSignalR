@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34825.169
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{76F19790-735E-44E1-ABBF-5D5A4AF6F18A}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Packages.props = Directory.Packages.props
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientSample", "ClientSample\ClientSample.csproj", "{5A06CACD-427C-424B-82F5-F63147F958C0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JwtClientSample", "JwtClientSample\JwtClientSample.csproj", "{FF8EA5BA-A2F7-452D-8A52-295A8E7598C1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JwtSample", "JwtSample\JwtSample.csproj", "{0F44A1B5-420E-4C26-8EC5-D316F7117DE0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalRSamples", "SignalRSamples\SignalRSamples.csproj", "{79B53D86-CAE9-4A4D-A7D9-2ECBB4DB83DC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SocialWeather", "SocialWeather\SocialWeather.csproj", "{E06D528A-77F6-45F5-8546-27AD44ED917E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebSocketSample", "WebSocketSample\WebSocketSample.csproj", "{FB235BFB-DEAB-4EB2-A22D-BED3C9728ED8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A06CACD-427C-424B-82F5-F63147F958C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A06CACD-427C-424B-82F5-F63147F958C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A06CACD-427C-424B-82F5-F63147F958C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A06CACD-427C-424B-82F5-F63147F958C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF8EA5BA-A2F7-452D-8A52-295A8E7598C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF8EA5BA-A2F7-452D-8A52-295A8E7598C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF8EA5BA-A2F7-452D-8A52-295A8E7598C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF8EA5BA-A2F7-452D-8A52-295A8E7598C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F44A1B5-420E-4C26-8EC5-D316F7117DE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F44A1B5-420E-4C26-8EC5-D316F7117DE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F44A1B5-420E-4C26-8EC5-D316F7117DE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F44A1B5-420E-4C26-8EC5-D316F7117DE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79B53D86-CAE9-4A4D-A7D9-2ECBB4DB83DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79B53D86-CAE9-4A4D-A7D9-2ECBB4DB83DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79B53D86-CAE9-4A4D-A7D9-2ECBB4DB83DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79B53D86-CAE9-4A4D-A7D9-2ECBB4DB83DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E06D528A-77F6-45F5-8546-27AD44ED917E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E06D528A-77F6-45F5-8546-27AD44ED917E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E06D528A-77F6-45F5-8546-27AD44ED917E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E06D528A-77F6-45F5-8546-27AD44ED917E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB235BFB-DEAB-4EB2-A22D-BED3C9728ED8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB235BFB-DEAB-4EB2-A22D-BED3C9728ED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB235BFB-DEAB-4EB2-A22D-BED3C9728ED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB235BFB-DEAB-4EB2-A22D-BED3C9728ED8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E8B6159-C82B-4206-A580-B2D4F27AC1BE}
+	EndGlobalSection
+EndGlobal

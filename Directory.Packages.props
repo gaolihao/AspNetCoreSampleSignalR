@@ -1,0 +1,125 @@
+<Project>
+  <PropertyGroup>
+    <NetVersion>8.0.8</NetVersion>
+    <EFVersion>8.0.1</EFVersion>
+    <MECVersion>8.0.0</MECVersion>
+    <MvvmDialogs>2.1.0</MvvmDialogs>
+    <OpenIddictVersion>5.7.0</OpenIddictVersion>
+    <ProtobufNetGrpcVersion>1.1.1</ProtobufNetGrpcVersion>
+    <WixVersion>5.0.1</WixVersion>
+    <ZompEFVersion>8.0.10</ZompEFVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageVersion Include="Google.Protobuf" Version="3.27.3" />
+    <PackageVersion Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.8" />
+    <PackageVersion Include="Microsoft.AspNetCore.Connections.Abstractions" Version="$(NetVersion)" />
+    <PackageVersion Include="Microsoft.AspNetCore.Http.Connections.Client" Version="$(NetVersion)" />
+    <PackageVersion Include="Microsoft.AspNetCore.SignalR.Client" Version="$(NetVersion)" />
+    <PackageVersion Include="Microsoft.AspNetCore.SignalR.Protocols.MessagePack" Version="8.0.8" />
+    <PackageVersion Include="Microsoft.Extensions.CommandLineUtils" Version="1.1.1" />
+    <PackageVersion Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
+    <PackageVersion Include="Microsoft.Extensions.Logging" Version="8.0.0" />
+    <PackageVersion Include="Microsoft.Extensions.Logging.Console" Version="8.0.0" />
+    <PackageVersion Include="System.IO.Pipelines" Version="8.0.0" />
+    <PackageVersion Include="AutoMapper" Version="13.0.1" />
+    <PackageVersion Include="AvalonEdit" Version="6.2.0.78" Condition="$(DefineConstants.Contains(IN_NOVIVIEW_COMPILATION))" />
+    <PackageVersion Include="BenchmarkDotNet" Version="0.14.0" />
+    <PackageVersion Include="Chiseled.Microsoft.Identity.Client" Version="100.0.0" />
+    <PackageVersion Include="CommunityToolkit.HighPerformance" Version="8.2.2" />
+    <PackageVersion Include="CommunityToolkit.Mvvm" Version="8.2.2" />
+    <PackageVersion Include="CompareNETObjects" Version="4.83.0" />
+    <PackageVersion Include="coverlet.collector" Version="6.0.2" />
+    <PackageVersion Include="DependencyPropertyGenerator" Version="1.4.0" />
+    <PackageVersion Include="Dirkster.InplaceEditBoxLib" Version="1.4.2" />
+    <PackageVersion Include="EMGU.CV" Version="4.5.5.4823 " />
+    <PackageVersion Include="EPPlus" Version="7.2.2" />
+    <PackageVersion Include="FluentBuilder" Version="0.9.0" />
+    <PackageVersion Include="FluentResults" Version="3.16.0" />
+    <PackageVersion Include="FluentValidation" Version="11.9.2" />
+    <PackageVersion Include="Flurl" Version="4.0.0" />
+    <PackageVersion Include="Fody" Version="6.8.1" />
+    <PackageVersion Include="FodyPropertyChangedSuppressor" Version="0.0.1" />
+    <PackageVersion Include="Grpc.Net.Client" Version="2.37.0" />
+    <PackageVersion Include="Grpc.Net.ClientFactory" Version="2.65.0" />
+    <PackageVersion Include="Gu.Wpf.Adorners" Version="2.1.1" />
+    <PackageVersion Include="HanumanInstitute.MvvmDialogs" Version="$(MvvmDialogs)" />
+    <PackageVersion Include="HanumanInstitute.MvvmDialogs.Wpf" Version="$(MvvmDialogs)" />
+    <PackageVersion Include="InfoOf.Fody" Version="2.2.0" />
+    <PackageVersion Include="Markdig.Wpf" Version="0.5.0.1" />
+    <PackageVersion Include="MartinCostello.SqlLocalDb" Version="3.4.0" />
+    <PackageVersion Include="MathConverter" Version="2.2.1" />
+    <PackageVersion Include="McMaster.Extensions.CommandLineUtils" Version="4.1.1" />
+    <PackageVersion Include="MethodTimer.Fody" Version="3.2.2" />
+    <PackageVersion Include="Microsoft.AspNet.WebApi.Client" Version="6.0.0" />
+    <PackageVersion Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="$(NetVersion)" />
+    <PackageVersion Include="Microsoft.Data.SqlClient" Version="5.2.1" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.Design" Version="$(EFVersion)" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.Relational" Version="$(EFVersion)" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.Sqlite" Version="$(EFVersion)" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.SqlServer" Version="$(EFVersion)" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.Tools" Version="$(EFVersion)" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore" Version="$(EFVersion)" />
+    <PackageVersion Include="Microsoft.Extensions.Configuration.Binder" Version="8.0.2" />
+    <PackageVersion Include="Microsoft.Extensions.Configuration.Json" Version="$(MECVersion)" />
+    <PackageVersion Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="$(MECVersion)" />
+    <PackageVersion Include="Microsoft.Extensions.Configuration" Version="$(MECVersion)" />
+    <PackageVersion Include="Microsoft.Extensions.Hosting.Abstractions" Version="$(MECVersion)" />
+    <PackageVersion Include="Microsoft.Extensions.Hosting.WindowsServices" Version="8.0.0" />
+    <PackageVersion Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
+    <PackageVersion Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="$(MECVersion)" />
+    <PackageVersion Include="Microsoft.Extensions.Options" Version="8.0.2" />
+    <PackageVersion Include="Microsoft.Net.Compilers.Toolset" Version="4.3.0-3.22306.1" />
+    <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.10.0" />
+    <PackageVersion Include="Microsoft.Windows.CsWin32" Version="0.3.106" Condition="!$(DefineConstants.Contains(OMIT_CSWIN32))" />
+    <PackageVersion Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.122" />
+    <PackageVersion Include="N.SourceGenerators.UnionTypes" Version="0.28.0" />
+    <PackageVersion Include="Nerdbank.GitVersioning" Version="3.6.141" />
+    <PackageVersion Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageVersion Include="Nito.Mvvm.Async" Version="1.0.0-pre-04" />
+    <PackageVersion Include="OpenIddict.AspNetCore" Version="$(OpenIddictVersion)" />
+    <PackageVersion Include="OpenIddict.EntityFrameworkCore" Version="$(OpenIddictVersion)" />
+    <PackageVersion Include="PropertyChanged.Fody" Version="4.1.0" />
+    <PackageVersion Include="protobuf-net" Version="3.2.30" />
+    <PackageVersion Include="protobuf-net.BuildTools" Version="3.2.33" />
+    <PackageVersion Include="protobuf-net.Grpc.AspNetCore" Version="$(ProtobufNetGrpcVersion)" />
+    <PackageVersion Include="protobuf-net.Grpc.ClientFactory" Version="$(ProtobufNetGrpcVersion)" />
+    <PackageVersion Include="protobuf-net.Grpc" Version="$(ProtobufNetGrpcVersion)" />
+    <PackageVersion Include="Serilog.AspNetCore" Version="8.0.2" />
+    <PackageVersion Include="Serilog.Extensions.Hosting" Version="8.0.0" />
+    <PackageVersion Include="Serilog.Extensions.Logging" Version="8.0.0" />
+    <PackageVersion Include="Serilog.Sinks.Async" Version="2.0.0" />
+    <PackageVersion Include="Serilog.Sinks.File" Version="6.0.0" />
+    <PackageVersion Include="Serilog.Sinks.XUnit" Version="3.0.5" />
+    <PackageVersion Include="Serilog" Version="4.0.1" />
+    <PackageVersion Include="StyleCop.Analyzers" Version="1.2.0-beta.556" />
+    <PackageVersion Include="Supernova.Enum.Generators" Version="1.0.17" />
+    <PackageVersion Include="Swashbuckle.AspNetCore" Version="6.7.0" />
+    <PackageVersion Include="System.Globalization" Version="4.3.0" />
+    <PackageVersion Include="System.IO.FileSystem.AccessControl" Version="5.0.0" />
+    <PackageVersion Include="System.IO.Packaging" Version="8.0.0" />
+    <PackageVersion Include="System.Linq.Async" Version="6.0.1" />
+    <PackageVersion Include="System.Linq" Version="4.3.0" />
+    <PackageVersion Include="System.Reactive" Version="6.0.1" />
+    <PackageVersion Include="System.Text.Json" Version="9.0.0-preview.6.24327.7" />
+    <PackageVersion Include="System.Threading.Tasks.Extensions" Version="4.5.4" />
+    <PackageVersion Include="Thinktecture.EntityFrameworkCore.SqlServer" Version="8.0.0-beta04" />
+    <PackageVersion Include="ToggleSwitch" Version="1.2.0" />
+    <PackageVersion Include="Virzak.Extended.Wpf.Toolkit" Version="3.1.1" />
+    <PackageVersion Include="WixToolset.Bal.wixext" Version="$(WixVersion)" />
+    <PackageVersion Include="WixToolset.Heat" Version="$(WixVersion)" />
+    <PackageVersion Include="WixToolset.NetFx.wixext" Version="$(WixVersion)" />
+    <PackageVersion Include="WixToolset.UI.wixext" Version="$(WixVersion)" />
+    <PackageVersion Include="WixToolset.Util.wixext" Version="$(WixVersion)" />
+    <PackageVersion Include="WpfScreenHelper" Version="2.1.0" />
+    <PackageVersion Include="WriteableBitmapEx" Version="1.6.8" />
+    <PackageVersion Include="xunit" Version="2.9.0" />
+    <PackageVersion Include="xunit.runner.visualstudio" Version="2.8.2" />
+    <PackageVersion Include="Xunit.SerializedTheoryData" Version="1.0.4" />
+    <PackageVersion Include="Z.EntityFramework.Extensions.EFCore" Version="8.103.2" />
+    <PackageVersion Include="Z.EntityFramework.Plus.EFCore" Version="8.103.2" />
+    <PackageVersion Include="Zomp.Api.Web" Version="0.0.15" />
+    <PackageVersion Include="Zomp.EFCore.BinaryFunctions.SqlServer" Version="$(ZompEFVersion)" />
+    <PackageVersion Include="Zomp.EFCore.WindowFunctions.SqlServer" Version="$(ZompEFVersion)" />
+    <PackageVersion Include="Zomp.SyncMethodGenerator" Version="1.4.14" />
+  </ItemGroup>
+</Project>
