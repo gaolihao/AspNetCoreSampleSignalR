@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "ClientSample": {
+      "commandName": "Project"
+    },
+    "test": {
+      "commandName": "Project",
+      "commandLineArgs": "hub http://localhost:5000/default"
+    }
+  }
+}
