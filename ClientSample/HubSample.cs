@@ -31,11 +31,13 @@ internal class HubSample
 
         Console.WriteLine("Connecting to {0}", uri);
 
-        var connectionBuilder = new HubConnectionBuilder()
+        var connectionBuilder = new HubConnectionBuilder();
+        /*
             .ConfigureLogging(logging =>
             {
                 logging.AddConsole();
             });
+        */
 
         connectionBuilder.Services.Configure<LoggerFilterOptions>(options =>
         {
